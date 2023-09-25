@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="1" timestamp="1681162168263" analysisTimestamp="1681162168199" release="">
+  <Project projectName="xmltree-viewer">
+    <Jar>/Users/Beck/Desktop/xmltree-viewer/bin</Jar>
+    <AuxClasspathEntry>/Users/Beck/Desktop/xmltree-viewer/bin</AuxClasspathEntry>
+    <SrcDir>/Users/Beck/Desktop/xmltree-viewer</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 7 Apr 2023 15:02:59 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="17.0.5" vm_version="17.0.5+8" cpu_seconds="0.07" clock_seconds="0.07" peak_mbytes="1514.07" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="32" invocations="153" avgMicrosecondsPerInvocation="213" maxMicrosecondsPerInvocation="3223" standardDeviationMicrosecondsPerInvocation="446"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="17" invocations="2" avgMicrosecondsPerInvocation="8528" maxMicrosecondsPerInvocation="15391" standardDeviationMicrosecondsPerInvocation="6863"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1681162168263" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

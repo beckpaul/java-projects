@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/Beck/Desktop/java-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+422761703.index
+1275305523.index
+3036151934.index
+3792366206.index
+3533115072.index
+4051408024.index

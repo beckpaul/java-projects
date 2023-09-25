@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="        NaturalNumber bot = this.model.bottom(), top = this.model.top();"/>
+		<list key="findhistory">
+			<item value="        NaturalNumber bot = this.model.bottom(), top = this.model.top();"/>
+			<item value="combined"/>
+			<item value="this.setLayout"/>
+			<item value="this."/>
+			<item value="mainButtonPanel"/>
+			<item value="primaryButtonPanel"/>
+			<item value="mainButton"/>
+			<item value="bDigits"/>
+			<item value="bdigits"/>
+			<item value="g"/>
+			<item value="undo"/>
+			<item value="process"/>
+			<item value="eventListener"/>
+			<item value="event"/>
+			<item value="todo"/>
+		</list>
+		<list key="replacehistory">
+			<item value="NaturalNumber bot = this.model.bottom(), top = this.model.top();"/>
+			<item value="mainButtonPanel"/>
+			<item value="upper"/>
+			<item value="lower"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="307"/>
+		<item key="DIALOG_Y_ORIGIN" value="271"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="721"/>
+		<item key="DIALOG_Y_ORIGIN" value="593"/>
+	</section>
+</section>

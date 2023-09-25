@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="137" timestamp="1677201809926" analysisTimestamp="1677201809691" release="">
+  <Project projectName="RSSAggregator">
+    <Jar>/Users/Beck/Desktop/java-workspace/RSSAggregator/bin/RSSAggregator.class</Jar>
+    <AuxClasspathEntry>/Users/Beck/Desktop/java-workspace/RSSAggregator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/Documents/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/RSSAggregator/src</SrcDir>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/RSSAggregator/test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="10" last="65" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="315" end="348" startBytecode="0" endBytecode="90" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="feeds" register="4" pc="41" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="320" end="320" startBytecode="39" endBytecode="39" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="320" end="320" startBytecode="39" endBytecode="39" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="feeds"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="10" last="10" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="285" end="334" startBytecode="0" endBytecode="50" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="channel" register="6" pc="94" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="307" end="307" startBytecode="92" endBytecode="92" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="307" end="307" startBytecode="92" endBytecode="92" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="channel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="80" last="80" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="320" end="368" startBytecode="0" endBytecode="101" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="news" register="11" pc="211" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="348" end="348" startBytecode="209" endBytecode="209" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="348" end="348" startBytecode="209" endBytecode="209" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="news"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="91" last="91" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="processFeed" signature="(Ljava/lang/String;Ljava/lang/String;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="312" end="320" startBytecode="0" endBytecode="6" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="channel" register="3" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="314" end="314" startBytecode="9" endBytecode="9" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="314" end="314" startBytecode="9" endBytecode="9" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="channel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="14" last="14" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="processFeedsHeader" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="181" end="186" startBytecode="0" endBytecode="25" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <LocalVariable name="title" register="2" pc="60" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSAggregator" start="184" end="184" startBytecode="59" endBytecode="59" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="184" end="184" startBytecode="59" endBytecode="59" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="title"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="59" last="62" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="createFile" signature="(Ljava/lang/String;)Ljava/io/File;" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="286" end="289" startBytecode="0" endBytecode="75" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1038" end="1043" startBytecode="0" endBytecode="126" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="RSSAggregator" start="287" end="287" startBytecode="10" endBytecode="10" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="287" end="287" startBytecode="10" endBytecode="10" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="63" last="64" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="createFile" signature="(Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="285" end="287" startBytecode="0" endBytecode="74" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1038" end="1043" startBytecode="0" endBytecode="126" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="RSSAggregator" start="286" end="286" startBytecode="10" endBytecode="10" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="286" end="286" startBytecode="10" endBytecode="10" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1" last="57" removedByChange="true">
+    <Class classname="RSSAggregator">
+      <SourceLine classname="RSSAggregator" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Class>
+    <Method classname="RSSAggregator" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSAggregator" start="304" end="360" startBytecode="0" endBytecode="575" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1038" end="1043" startBytecode="0" endBytecode="126" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="RSSAggregator" start="314" end="314" startBytecode="54" endBytecode="54" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+    <SourceLine classname="RSSAggregator" start="314" end="314" startBytecode="54" endBytecode="54" sourcefile="RSSAggregator.java" sourcepath="RSSAggregator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 23 Feb 2023 20:23:29 -0500" total_classes="1" referenced_classes="22" total_bugs="0" total_size="155" num_packages="1" java_version="17.0.5" vm_version="17.0.5+8" cpu_seconds="0.82" clock_seconds="0.24" peak_mbytes="925.35" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="155">
+      <ClassStats class="RSSAggregator" sourceFile="RSSAggregator.java" interface="false" size="155" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="64" invocations="425" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="2552" standardDeviationMicrosecondsPerInvocation="315"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="36" invocations="2" avgMicrosecondsPerInvocation="18194" maxMicrosecondsPerInvocation="31321" standardDeviationMicrosecondsPerInvocation="13127"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="426" avgMicrosecondsPerInvocation="53" maxMicrosecondsPerInvocation="579" standardDeviationMicrosecondsPerInvocation="65"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1677182968002" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1677182968003" release="" codeSize="125" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1677183123888" release="" codeSize="127" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1677183186173" release="" codeSize="124" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1677183455876" release="" codeSize="126" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1677191718840" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1677191729270" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1677191740627" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1677191760328" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1677192036501" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1677192114315" release="" codeSize="123" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1677192159926" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1677192360969" release="" codeSize="127" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1677192654080" release="" codeSize="124" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1677192710552" release="" codeSize="128" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1677192729281" release="" codeSize="128" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1677192772021" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1677192779862" release="" codeSize="129" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1677192845319" release="" codeSize="129" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1677192947840" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1677192952508" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1677192966689" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1677193005642" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1677193146992" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1677193170478" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1677193218793" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1677193363496" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1677193368091" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1677193484612" release="" codeSize="120" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1677193548609" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1677193553442" release="" codeSize="124" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1677193564773" release="" codeSize="124" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1677194100960" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1677194110164" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1677194115429" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1677194124864" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1677194148111" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1677194151142" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1677194196376" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1677194212745" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1677194234003" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1677194243341" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1677194258036" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1677194295051" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1677194387599" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1677194418905" release="" codeSize="130" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1677194546335" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1677194549583" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1677194565603" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1677194573065" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1677196068284" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1677196071689" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="52" timestamp="1677196072717" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1677196076747" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1677196136725" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1677196139986" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1677196151090" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1677196155319" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1677196302530" release="" codeSize="133" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1677196312673" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1677196328718" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1677196376539" release="" codeSize="135" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1677196392772" release="" codeSize="114" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1677196409227" release="" codeSize="114" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1677196414821" release="" codeSize="114" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1677196439500" release="" codeSize="134" numClasses="1"/>
+    <AppVersion sequence="66" timestamp="1677196448278" release="" codeSize="138" numClasses="1"/>
+    <AppVersion sequence="67" timestamp="1677196476895" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="68" timestamp="1677196486523" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="69" timestamp="1677196499872" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="70" timestamp="1677196544966" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="71" timestamp="1677196556250" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="72" timestamp="1677196583655" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="73" timestamp="1677196591864" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="74" timestamp="1677196599438" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="75" timestamp="1677196633398" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="76" timestamp="1677196636343" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="77" timestamp="1677196698691" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="78" timestamp="1677196726467" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="79" timestamp="1677196941146" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="80" timestamp="1677196944833" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="81" timestamp="1677197048810" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="82" timestamp="1677197053768" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="83" timestamp="1677197124467" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="84" timestamp="1677197195636" release="" codeSize="138" numClasses="1"/>
+    <AppVersion sequence="85" timestamp="1677197200815" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="86" timestamp="1677197202871" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="87" timestamp="1677197220117" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="88" timestamp="1677197251499" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="89" timestamp="1677197256034" release="" codeSize="140" numClasses="1"/>
+    <AppVersion sequence="90" timestamp="1677197441250" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="91" timestamp="1677197482175" release="" codeSize="141" numClasses="1"/>
+    <AppVersion sequence="92" timestamp="1677197645161" release="" codeSize="139" numClasses="1"/>
+    <AppVersion sequence="93" timestamp="1677197649967" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="94" timestamp="1677197655467" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="95" timestamp="1677197666512" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="96" timestamp="1677197739088" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="97" timestamp="1677197914506" release="" codeSize="144" numClasses="1"/>
+    <AppVersion sequence="98" timestamp="1677197927670" release="" codeSize="143" numClasses="1"/>
+    <AppVersion sequence="99" timestamp="1677197951404" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="100" timestamp="1677198102006" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="101" timestamp="1677198418070" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="102" timestamp="1677198507337" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="103" timestamp="1677198942142" release="" codeSize="110" numClasses="1"/>
+    <AppVersion sequence="104" timestamp="1677198954539" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="105" timestamp="1677198956569" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="106" timestamp="1677199041015" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="107" timestamp="1677199052775" release="" codeSize="137" numClasses="1"/>
+    <AppVersion sequence="108" timestamp="1677199091351" release="" codeSize="112" numClasses="1"/>
+    <AppVersion sequence="109" timestamp="1677199092387" release="" codeSize="146" numClasses="1"/>
+    <AppVersion sequence="110" timestamp="1677199479014" release="" codeSize="146" numClasses="1"/>
+    <AppVersion sequence="111" timestamp="1677199495412" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="112" timestamp="1677199513907" release="" codeSize="146" numClasses="1"/>
+    <AppVersion sequence="113" timestamp="1677199517099" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="114" timestamp="1677199531342" release="" codeSize="145" numClasses="1"/>
+    <AppVersion sequence="115" timestamp="1677199589780" release="" codeSize="112" numClasses="1"/>
+    <AppVersion sequence="116" timestamp="1677199605149" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="117" timestamp="1677199611742" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="118" timestamp="1677199760573" release="" codeSize="149" numClasses="1"/>
+    <AppVersion sequence="119" timestamp="1677199782962" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="120" timestamp="1677200239244" release="" codeSize="150" numClasses="1"/>
+    <AppVersion sequence="121" timestamp="1677200256465" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="122" timestamp="1677200269161" release="" codeSize="151" numClasses="1"/>
+    <AppVersion sequence="123" timestamp="1677200297740" release="" codeSize="153" numClasses="1"/>
+    <AppVersion sequence="124" timestamp="1677200399373" release="" codeSize="161" numClasses="1"/>
+    <AppVersion sequence="125" timestamp="1677200404262" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="126" timestamp="1677200418164" release="" codeSize="146" numClasses="1"/>
+    <AppVersion sequence="127" timestamp="1677200873892" release="" codeSize="148" numClasses="1"/>
+    <AppVersion sequence="128" timestamp="1677201126080" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="129" timestamp="1677201358602" release="" codeSize="147" numClasses="1"/>
+    <AppVersion sequence="130" timestamp="1677201390624" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="131" timestamp="1677201406655" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="132" timestamp="1677201414687" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="133" timestamp="1677201534945" release="" codeSize="113" numClasses="1"/>
+    <AppVersion sequence="134" timestamp="1677201571859" release="" codeSize="155" numClasses="1"/>
+    <AppVersion sequence="135" timestamp="1677201759080" release="" codeSize="154" numClasses="1"/>
+    <AppVersion sequence="136" timestamp="1677201780262" release="" codeSize="155" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="1" timestamp="1682054661940" analysisTimestamp="1682054661825" release="">
+  <Project projectName="natural-number-calculator">
+    <Jar>/Users/Beck/Desktop/java-workspace/natural-number-calculator/bin</Jar>
+    <AuxClasspathEntry>/Users/Beck/Desktop/java-workspace/natural-number-calculator/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/Documents/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/Desktop/java-workspace/natural-number-calculator/lib/calculator-demo.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/natural-number-calculator/src</SrcDir>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/natural-number-calculator/test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 21 Apr 2023 01:24:21 -0400" total_classes="1" referenced_classes="14" total_bugs="0" total_size="7" num_packages="1" java_version="17.0.5" vm_version="17.0.5+8" cpu_seconds="0.21" clock_seconds="0.12" peak_mbytes="1649.51" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="RunCalculator" sourceFile="RunCalculator.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="46" invocations="378" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="1979" standardDeviationMicrosecondsPerInvocation="257"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="26" invocations="2" avgMicrosecondsPerInvocation="13048" maxMicrosecondsPerInvocation="24100" standardDeviationMicrosecondsPerInvocation="11052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="19" invocations="379" avgMicrosecondsPerInvocation="51" maxMicrosecondsPerInvocation="540" standardDeviationMicrosecondsPerInvocation="68"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1682054661940" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

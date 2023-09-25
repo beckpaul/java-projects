@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="1" timestamp="1675886107662" analysisTimestamp="1675886107499" release="">
+  <Project projectName="RSSProcessing.java">
+    <Jar>/Users/Beck/Desktop/java-workspace/RSSProcessing.java/bin</Jar>
+    <AuxClasspathEntry>/Users/Beck/Desktop/java-workspace/RSSProcessing.java/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/Documents/components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/Beck/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/RSSProcessing.java/test</SrcDir>
+    <SrcDir>/Users/Beck/Desktop/java-workspace/RSSProcessing.java/src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 8 Feb 2023 14:55:07 -0500" total_classes="4" referenced_classes="20" total_bugs="0" total_size="38" num_packages="1" java_version="17.0.5" vm_version="17.0.5+8" cpu_seconds="0.35" clock_seconds="0.16" peak_mbytes="1020.20" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="4" total_size="38">
+      <ClassStats class="HelloWorld" sourceFile="HelloWorld.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="ProgramSkeleton" sourceFile="ProgramSkeleton.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="ProgramWithIO" sourceFile="ProgramWithIO.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="ProgramWithIOAndStaticMethod" sourceFile="ProgramWithIOAndStaticMethod.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="52" invocations="373" avgMicrosecondsPerInvocation="139" maxMicrosecondsPerInvocation="9885" standardDeviationMicrosecondsPerInvocation="555"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="45" invocations="2" avgMicrosecondsPerInvocation="22634" maxMicrosecondsPerInvocation="41232" standardDeviationMicrosecondsPerInvocation="18598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="30" invocations="374" avgMicrosecondsPerInvocation="82" maxMicrosecondsPerInvocation="1857" standardDeviationMicrosecondsPerInvocation="138"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1675886107662" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
